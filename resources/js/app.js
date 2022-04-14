@@ -18,6 +18,3 @@ let repNine = document.querySelector('#9');
 let repTen = document.querySelector('#10');
 
 
-if (repOne) {
-    
-}
