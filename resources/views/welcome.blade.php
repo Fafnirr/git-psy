@@ -35,10 +35,10 @@
                         
                     </div>
                     <div class="reponses">
-                        <input type="radio" id="0" value="0">
-                        <input type="radio" id="1" value="1">
-                        <input type="radio" id="2" value="2">
-                        <input type="radio" id="3" value="3">
+                        <input type="radio" id="0" name="choice" value="0">
+                        <input type="radio" id="1" name="choice" value="1">
+                        <input type="radio" id="2" name="choice" value="2">
+                        <input type="radio" id="3" name="choice" value="3">
                     </div>
                 </div>
             </form>
