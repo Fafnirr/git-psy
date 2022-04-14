@@ -34,29 +34,78 @@
                     <div class="question">
                         <div>
                             <p>Vous êtes facilement dérangé(e) par les lumières, les bruits, les odeurs, certaines sensations</p>
-                            <input type="radio" id="0" name="choice" value="0">
-                            <input type="radio" id="1" name="choice" value="1">
-                            <input type="radio" id="2" name="choice" value="2">
-                            <input type="radio" id="3" name="choice" value="3">
+                            <input type="radio" id="0" name="choiceOne" value="0">
+                            <input type="radio" id="1" name="choiceOne" value="1">
+                            <input type="radio" id="2" name="choiceOne" value="2">
+                            <input type="radio" id="3" name="choiceOne" value="3">
                         </div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </div>
-                    <div class="reponses">
-                        <input type="radio" id="0" name="choice" value="0">
-                        <input type="radio" id="1" name="choice" value="1">
-                        <input type="radio" id="2" name="choice" value="2">
-                        <input type="radio" id="3" name="choice" value="3">
+                        <div>
+                            <p>Vous remarquez les changements subtils dans votre environnement</p>
+                            <input type="radio" id="4" name="choiceTwo" value="0">
+                            <input type="radio" id="5" name="choiceTwo" value="1">
+                            <input type="radio" id="6" name="choiceTwo" value="2">
+                            <input type="radio" id="7" name="choiceTwo" value="3">
+                        </div>
+                        <div>
+                            <p>Vous êtes sensible aux ambiances </p>
+                            <input type="radio" id="8" name="choiceThree" value="0">
+                            <input type="radio" id="9" name="choiceThree" value="1">
+                            <input type="radio" id="10" name="choiceThree" value="2">
+                            <input type="radio" id="11" name="choiceThree" value="3">
+                        </div>
+                        <div>
+                            <p>Vos réactions émotionnelles sont intenses, qu'elles soient positives ou négatives</p>
+                            <input type="radio" id="12" name="choiceFour" value="0">
+                            <input type="radio" id="13" name="choiceFour" value="1">
+                            <input type="radio" id="14" name="choiceFour" value="2">
+                            <input type="radio" id="15" name="choiceFour" value="3">
+                        </div>
+                        <div>
+                            <p>Vous êtes facilement touché(e) ou ému(e)</p>
+                            <input type="radio" id="16" name="choiceFive" value="0">
+                            <input type="radio" id="17" name="choiceFive" value="1">
+                            <input type="radio" id="18" name="choiceFive" value="2">
+                            <input type="radio" id="19" name="choiceFive" value="3">
+                        </div>
+                        <div>
+                            <p>Vos proches voous décrivent comme quelqu'un de sensible</p>
+                            <input type="radio" id="20" name="choiceSix" value="0">
+                            <input type="radio" id="21" name="choiceSix" value="1">
+                            <input type="radio" id="22" name="choiceSix" value="2">
+                            <input type="radio" id="23" name="choiceSix" value="3">
+                        </div>
+                        <div>
+                            <p>Vous nouez des relations profondes avec les autres, qui vous nourrissent réciproquement</p>
+                            <input type="radio" id="24" name="choiceSeven" value="0">
+                            <input type="radio" id="25" name="choiceSeven" value="1">
+                            <input type="radio" id="26" name="choiceSeven" value="2">
+                            <input type="radio" id="27" name="choiceSeven" value="3">
+                        </div>
+                        <div>
+                            <p>Vous êtes attentif/ve à vous émotions et à celles des autres</p>
+                            <input type="radio" id="28" name="choiceEight" value="0">
+                            <input type="radio" id="29" name="choiceEight" value="1">
+                            <input type="radio" id="30" name="choiceEight" value="2">
+                            <input type="radio" id="31" name="choiceEight" value="3">
+                        </div>
+                        <div>
+                            <p>Vous éprouvez régulièrement le besoin de vous isoler pour vous remettre des nombreuses sollicitations de votre environnement</p>
+                            <input type="radio" id="32" name="choiceNine" value="0">
+                            <input type="radio" id="33" name="choiceNine" value="1">
+                            <input type="radio" id="34" name="choiceNine" value="2">
+                            <input type="radio" id="35" name="choiceNine" value="3">
+                        </div>
+                        <div>
+                            <p>Vous appréciez les oeuvres d'art (peinture, musique, littérature...) et les émotions esthétiques</p>
+                            <input type="radio" id="36" name="choiceTen" value="0">
+                            <input type="radio" id="37" name="choiceTen" value="1">
+                            <input type="radio" id="38" name="choiceTen" value="2">
+                            <input type="radio" id="39" name="choiceTen" value="3">
+                        </div>
                     </div>
                 </div>
             </form>
         </div>
+        <script src="{{ asset('/app.js') }}"></script>
     </body>
 </html>
